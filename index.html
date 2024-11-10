@@ -16,12 +16,12 @@
                   <a href=""><img class="logo" src="images/Cyberpunk_2077_logo.svg" alt="logo"></a>
                   <nav class="menu">
                      <ul class="menu__list">
-                        <li class="menu__link"><a href="#"><img src="images/icons/social media/YouTube.svg" alt="youtubeLogo.png" class="menu__img"></a></li>
-                        <li class="menu__link"><a href="#"><img src="images/icons/social media/VK.svg" alt="vkLogo.png" class="menu__img"></a></li>
-                        <li class="menu__link"><a href="#"><img src="images/icons/social media/Facebook.svg" alt="facebook.png" class="menu__img"></a></li>
-                        <li class="menu__link"><a href="#"><img src="images/icons/social media/Twitter.svg" alt="twitter.png" class="menu__img"></a></li>
-                        <li class="menu__link"><a href="#"><img src="images/icons/social media/Twitch.svg" alt="twitchLogo.png" class="menu__img"></a></li>
-                        <li class="menu__link"><a href="#"><img src="images/icons/social media/Instagram.svg" alt="instagram.png" class="menu__img"></a></li>
+                        <li class="menu__link"><a href="#"><img src="images/icons/social_media/YouTube.svg" alt="youtubeLogo.png" class="menu__img"></a></li>
+                        <li class="menu__link"><a href="#"><img src="images/icons/social_media/VK.svg" alt="vkLogo.png" class="menu__img"></a></li>
+                        <li class="menu__link"><a href="#"><img src="images/icons/social_media/Facebook.svg" alt="facebook.png" class="menu__img"></a></li>
+                        <li class="menu__link"><a href="#"><img src="images/icons/social_media/Twitter.svg" alt="twitter.png" class="menu__img"></a></li>
+                        <li class="menu__link"><a href="#"><img src="images/icons/social_media/Twitch.svg" alt="twitchLogo.png" class="menu__img"></a></li>
+                        <li class="menu__link"><a href="#"><img src="images/icons/social_media/Instagram.svg" alt="instagram.png" class="menu__img"></a></li>
                      </ul>
                   </nav>
                </div>
@@ -34,22 +34,105 @@
                </div>
             </section>
          </div>
-         <section class="night-city container">
-            <h2 class="night-city__title">Найт-Сити изменит тебя навсегда!</h2>
-            <p class="night-city__text">
-               <span class="text text_blue">Cyberpunk 2077</span>
-               — приключенческая ролевая игра,
-               действие которой происходит в мегаполисе Найт-Сити,
-               где власть, роскошь и модификации тела ценятся выше всего.
-               Ты играешь за V, наёмника в поисках устройства,
-               позволяющего обрести бессмертие. Ты сможешь менять киберимпланты,
-               навыки и стиль игры своего персонажа, исследуя открытый мир,
-               где твои поступки влияют на ход сюжета и всё, что тебя окружает.
-            </p>
-            <div class="night-city__gallery">
-               <img src="images/night-city/sub1.jpg" alt="sub1.jpg" class="night-city__img frame">
-               <img src="images/night-city/sub2.jpg" alt="sub2.jpg" class="night-city__img frame">
-               <img src="images/night-city/main.jpg" alt="main.jpg" class="night-city__img frame">
+         <section class="night-city">
+            <div class="container">
+               <h2 class="night-city__title">Найт-Сити изменит тебя навсегда!</h2>
+               <p class="night-city__text">
+                  <span class="text text_blue">Cyberpunk 2077</span>
+                  — приключенческая ролевая игра,
+                  действие которой происходит в мегаполисе Найт-Сити,
+                  где власть, роскошь и модификации тела ценятся выше всего.
+                  Ты играешь за V, наёмника в поисках устройства,
+                  позволяющего обрести бессмертие. Ты сможешь менять киберимпланты,
+                  навыки и стиль игры своего персонажа, исследуя открытый мир,
+                  где твои поступки влияют на ход сюжета и всё, что тебя окружает.
+               </p>
+               <div class="night-city__gallery">
+                  <img src="images/night-city/sub1.jpg" alt="sub1.jpg" class="night-city__img frame">
+                  <img src="images/night-city/sub2.jpg" alt="sub2.jpg" class="night-city__img frame">
+                  <img src="images/night-city/main.jpg" alt="main.jpg" class="night-city__img frame">
+               </div>
+            </div>
+            <div class="night-city__border"></div>
+         </section>
+         <section class="stock">
+           <div class="container">
+               <header class="stock__header">
+                  <div class="stock__img">
+                     <img src="images/stock/stock.svg" alt="stock">
+                  </div>
+                  <h2 class="stock__title">Играй и выигрывай!</h2>
+               </header>
+               <p class="stock__text">
+                  Играй в <span class="text text_blue">Cyberpunk 2077</span> и получи возможность выиграть
+                  консоль <span class="text text_blue">Xbox Series X</span> 
+                  или <span class="text text_blue">Sony PlayStation 5!</span>
+                  Заполни форму ниже и приложи скриншот о покупке игры.
+                  Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+               </p>
+               <div class="stock__body">
+                  <form action="#" class="stock__form form">
+                     <input type="text" placeholder="Как тебя зовут?" class="form__input">
+                     <input type="email" placeholder="Твой e-mail" class="form__input">
+                     <label class="form__file-container">
+                        <span>Прикрепить скриншот</span>
+                        <span>.png / .jpg / .pdf</span>
+                        <input type="file"  class="form__file">
+                     </label>
+                     <input type="submit" class="stock__btn btn btn_yellow" value="Отправить">
+                     <label class="agreement">
+                        <input type="checkbox"  class="form__checkbox">
+                        <span class="checkmark"></span>
+                        Согласен на обработку персональных данных
+                     </label>
+                    
+                  </form>
+                  <div class="stock__consoles">
+                     <div class="stock__console" id="xbox">
+                        <img src="images/stock/xbox.png" alt="xbox" >
+                     </div>
+                     <div class="stock__console"  id="ps">
+                        <img src="images/stock/ps.png" alt="ps">
+                     </div>
+                  </div>
+               </div>
+           </div>
+         </section>
+         <section class="hp">
+            <div class="hp__border"></div>
+            <div class="hp__row container">
+               <div class="hp__images">
+                  <img src="images/hp/monitor.png" alt="monitor" class="hp__monitor">
+                  <div class="hp__images-container">
+                     <img src="images/icons/hp/hp-2_logo.svg" alt="hp-2">
+                     <img src="images/icons/hp/cross.svg" alt="hp-2">
+                     <img src="images/Cyberpunk_2077_logo.svg" alt="hp-2">
+                  </div>
+               </div>
+               <div class="hp__body">
+                  <h2 class="hp__title">Полное погружение вместе с HP</h2>
+                  <p class="hp__text">
+                     Погрузись в современные экшен-игры с реалистичным
+                     изображением с помощью монитора с диагональю 23,8 дюйма, созданном
+                     для отображения максимально насыщенных цветов. Успевай реагировать
+                     на любые события с временем отклика 1 мс и частотой в 144 Гц!
+                  </p>
+                  <div class="hp__advantages">
+                     <p class="hp__advantage">
+                        <img src="images/icons/advantages/colorswitcher.svg" alt="colorswitcher">
+                        Яркие насыщенные цвета
+                     </p>
+                     <p class="hp__advantage">
+                        <img src="images/icons/advantages/stars.svg" alt="colorswitcher">
+                        Кристальная четкость изображения
+                     </p>
+                     <p class="hp__advantage">
+                        <img src="images/icons/advantages/papers.svg" alt="colorswitcher">
+                        Быстрые движения и плавный геймплей
+                     </p>
+                  </div>
+                  <a href="#" class="hp__more btn btn_black">Подробнее</a>
+               </div>
             </div>
          </section>
       </main>
