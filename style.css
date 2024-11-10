@@ -175,12 +175,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .night-city {
    height: 100vh;
-   padding-top: 100px;
    position: relative;
 }
 .night-city .text::selection{
    background: var(--cyber-yellow);
    color: #000;
+}
+.night-city__body{
+   padding: 70px 0;
+   box-sizing: border-box;
 }
 .night-city__title {
    font-size: 62px;
