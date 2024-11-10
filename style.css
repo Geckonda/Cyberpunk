@@ -32,6 +32,10 @@ a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
+img::selection{background: transparent;}
+a::selection{background: transparent;}
+input::selection{background: transparent;}
+label::selection{background: transparent;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
@@ -135,6 +139,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    width: 624px;
    height: 369px;
 }
+.access .text::selection
+{
+   background: #000;
+   color: var(--cyber-yellow);
+}
 .hero__access
 {
    position: absolute;
@@ -169,6 +178,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    padding-top: 100px;
    position: relative;
 }
+.night-city .text::selection{
+   background: var(--cyber-yellow);
+   color: #000;
+}
 .night-city__title {
    font-size: 62px;
    font-family: var(--main-font);
@@ -202,7 +215,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 {
    grid-area: sub-second;align-self: end;
 }
-.night-city__img {
+.night-city__img{
+   cursor: pointer;
+   transition: 0.3s ease-out;
+}
+.night-city__img:hover {
+   transform: scale(1.02) rotate(1deg);
 }
 .night-city__border{
    position: absolute;
@@ -216,6 +234,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    color: #fff;
    box-sizing: border-box;
    padding: 32px 0 96px;
+}
+.stock .text::selection{
+   background: var(--cyber-yellow);
+   color: #000;
 }
 
 .stock__header {
@@ -336,15 +358,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    border-width: 0 1px 1px 0;
    transform: rotate(45deg);
 }
-
-
-
-
-
-
-
-
-
 .stock__consoles {
    display: flex;
    justify-content: flex-end;
@@ -376,14 +389,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    background-image: url(images/stock/blueZ.png);
 }
 
-
-
 .hp {
    background: var(--cyber-yellow);
    height: 746px;
    box-sizing: border-box;
    padding-top: 100px;
    position: relative;
+}
+.hp .text::selection
+{
+   color: var(--cyber-yellow);
+   background: #000;
 }
 .hp__border{
    position: absolute;
