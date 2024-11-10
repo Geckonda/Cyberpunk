@@ -116,6 +116,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
    background-image: url(images/slider/1920/main1.png);
    background-repeat: no-repeat;
    background-size: cover;
+   transition: background-image 1s ease-in-out;
 }
 .page__title {
 }
