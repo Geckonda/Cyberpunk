@@ -1,0 +1,84 @@
+@media (max-width: 1300px) {
+
+   .container {
+      width: 952px;
+   }
+   .night-city__title {
+      width: 620px;
+   }
+   .night-city__text {
+      max-width: 788px;
+   }
+   .night-city__gallery {
+      grid-template-areas: "sub-first sub-second" "main main";
+      gap: 32px;
+   }
+   .night-city__img:last-child
+   {
+      width: 952px;
+   }
+   .stock__header
+   {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   .stock__body{
+      grid-template-areas:
+      "stock-header ."
+      "stock-header stock-consoles"
+      "stock-text stock-consoles"
+      "stock-form  stock-consoles"
+      "stock-form stock-consoles";
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+   }
+   .stock__text
+   {
+      width: auto;
+   }
+   .stock__consoles{
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+   }
+   .hp {
+   }
+   .hp__row {
+      display: flex;
+      gap: 23px;
+   }
+   .container {
+   }
+   .hp__images {
+      justify-content: center;
+      gap: 32px;
+
+   }
+   .hp__monitor {
+      width: 460px;
+   }
+   .hp__images-container {
+      flex-direction: column;
+   }
+   .hp__body {
+      width: auto;
+   }
+   .hp__title {
+   }
+   .text {
+   }
+   .hp__text {
+      width: 460px;
+   }
+   .hp__advantages {
+   }
+   .hp__advantage {
+   }
+   .hp__more {
+   }
+   .btn {
+   }
+   .btn_black {
+   }
+}

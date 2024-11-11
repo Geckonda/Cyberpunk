@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" href="images/Cyberpunk_2077_logo.svg" type="image/png">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="adaptive.css">
    <title>Cynberpunk 2077</title>
 </head>
 <body>
@@ -53,10 +54,10 @@
                   <img src="images/night-city/main.jpg" alt="main.jpg" class="night-city__img frame">
                </div>
             </div>
-            <div class="night-city__border"></div>
          </section>
          <section class="stock">
-           <div class="container">
+            <div class="stock__border-top"></div>
+           <div class="stock__body container">
                <header class="stock__header">
                   <div class="stock__img">
                      <img src="images/stock/stock.svg" alt="stock">
@@ -70,36 +71,34 @@
                   Заполни форму ниже и приложи скриншот о покупке игры.
                   Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
                </p>
-               <div class="stock__body">
-                  <form action="#" class="stock__form form">
-                     <input type="text" placeholder="Как тебя зовут?" class="form__input">
-                     <input type="email" placeholder="Твой e-mail" class="form__input">
-                     <label class="form__file-container">
-                        <span class="text">Прикрепить скриншот</span>
-                        <span class="text">.png / .jpg / .pdf</span>
-                        <input type="file"  class="form__file" accept="image/png, image/jpg, image/pdf">
-                     </label>
-                     <input type="submit" class="stock__btn btn btn_yellow" value="Отправить">
-                     <label class="agreement text">
-                        <input type="checkbox"  class="form__checkbox">
-                        <span class="checkmark"></span>
-                        Согласен на обработку персональных данных
-                     </label>
-                    
-                  </form>
-                  <div class="stock__consoles">
-                     <div class="stock__console" id="xbox">
-                        <img src="images/stock/xbox.png" alt="xbox" >
-                     </div>
-                     <div class="stock__console"  id="ps">
-                        <img src="images/stock/ps.png" alt="ps">
-                     </div>
+               <form action="#" class="stock__form form">
+                  <input type="text" placeholder="Как тебя зовут?" class="form__input">
+                  <input type="email" placeholder="Твой e-mail" class="form__input">
+                  <label class="form__file-container">
+                     <span class="text">Прикрепить скриншот</span>
+                     <span class="text">.png / .jpg / .pdf</span>
+                     <input type="file"  class="form__file" accept="image/png, image/jpg, image/pdf">
+                  </label>
+                  <input type="submit" class="stock__btn btn btn_yellow" value="Отправить">
+                  <label class="agreement text">
+                     <input type="checkbox"  class="form__checkbox">
+                     <span class="checkmark"></span>
+                     Согласен на обработку персональных данных
+                  </label>
+                  
+               </form>
+               <div class="stock__consoles">
+                  <div class="stock__console" id="xbox">
+                     <img src="images/stock/xbox.png" alt="xbox" >
+                  </div>
+                  <div class="stock__console"  id="ps">
+                     <img src="images/stock/ps.png" alt="ps">
                   </div>
                </div>
            </div>
+           <div class="stock__border-bottom"></div>
          </section>
          <section class="hp">
-            <div class="hp__border"></div>
             <div class="hp__row container">
                <div class="hp__images">
                   <img src="images/hp/monitor.png" alt="monitor" class="hp__monitor">
