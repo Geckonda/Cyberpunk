@@ -199,6 +199,10 @@
    {
       flex-direction: column;
    }
+   .hp__images
+   {
+      align-items: center;
+   }
    .hp__images-container
    {
       flex-direction: row;
@@ -225,7 +229,6 @@
    .hp__advantages
    {
       font-size: 1rem;
-      line-height: 32px;
    }
    .hp__more
    {
