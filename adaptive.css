@@ -68,8 +68,171 @@
       max-width: 460px;
    }
 }
-@media (max-height:900px) {
+@media (max-width:996px) {
    html{
       font-size: 16px;
+   }
+   
+}
+@media (max-width:500px) {
+   .container
+   {
+      max-width: 320px;
+   }
+   .logo{
+      width: 200px;
+      height: 50px;
+   }
+   .header__row
+   {
+      flex-direction: column;
+   }
+   .menu__list{
+      gap: 2rem;
+   }
+   .menu__link img{
+      width: 23px;
+      height: 23px;
+   }
+   .access
+   {
+      width: 320px;
+      height: 207px;
+      padding: 30px;
+   }
+   .access__title
+   {
+      font-size: 30px;
+   }
+   .access__more
+   {
+      width: 244px;
+      height: 60px;
+   }
+   .night-city__title
+   {
+      font-size: 30px;
+   }
+   .night-city__text
+   {
+      font-size: 1rem;
+   }
+   .night-city__gallery {
+      grid-template-areas:
+      "sub-first"
+      "sub-second"
+      "main";
+      gap: 1rem;
+   }
+   .night-city__img
+   {
+      width: 320px;
+      height: 196px;
+   }
+   .night-city__img:last-child
+   {
+      width: 320px;
+      height: 424px;
+      object-fit: cover;
+   }
+   .stock__body{
+      grid-template-areas:
+      "stock-consoles"
+      "stock-header "
+      "stock-text"
+      "stock-form "
+      "stock-form";
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      position: relative;
+   }
+   .stock__title
+   {
+      font-size: 30px;
+   }
+   .stock__text
+   {
+      margin: 0;
+      font-size: 1rem;
+   }
+   .stock__consoles
+   {
+      flex-direction: row;
+      justify-content: space-around;
+   }
+   .stock__consoles :last-child
+   {
+      align-self: flex-end;
+   }
+   .stock__img
+   {
+      position: absolute;
+      top: 60px;
+   }
+   .stock__img img{
+      
+      width: 62px;
+      height: 62px;
+   }
+   .stock__img::after
+   {
+      font-size: 14px;
+   }
+   .stock__console::after
+   {
+      width: 132px;
+      height: 130px;
+   }
+   .stock__console img{
+      width: 85px;
+      height: 100px;
+   }
+   .stock__btn{
+      font-size: 1rem;
+   }
+   .hp__monitor
+   {
+      width: 296px;
+      height: 204px;
+   }
+   .hp__row
+   {
+      flex-direction: column;
+   }
+   .hp__images-container
+   {
+      flex-direction: row;
+   }
+   .hp__images-container :first-child
+   {
+      width: 44px;
+      height: 44px;
+   }
+   .hp__images-container :nth-child(2)
+   {
+      width: 50px;
+   }
+   .hp__images-container :last-child
+   {
+      width: 175px;
+      height: 44px;
+   }
+   .hp__title
+   {
+      font-size: 30px;
+   }
+   .hp__text,
+   .hp__advantages
+   {
+      font-size: 1rem;
+      line-height: 32px;
+   }
+   .hp__more
+   {
+      width: 184px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
 }
