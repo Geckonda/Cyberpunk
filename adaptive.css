@@ -1,17 +1,17 @@
 @media (max-width: 1300px) {
 
    .container {
-      width: 952px;
+      max-width: 952px;
    }
    .night-city__title {
-      width: 620px;
+      max-width: 620px;
    }
    .night-city__text {
       max-width: 788px;
    }
    .night-city__gallery {
       grid-template-areas: "sub-first sub-second" "main main";
-      gap: 32px;
+      gap: 2rem;
    }
    .night-city__img:last-child
    {
@@ -31,7 +31,7 @@
       "stock-form  stock-consoles"
       "stock-form stock-consoles";
       grid-template-columns: 1fr 1fr;
-      gap: 32px;
+      gap: 2rem;
    }
    .stock__text
    {
@@ -46,17 +46,17 @@
    }
    .hp__row {
       display: flex;
-      gap: 23px;
+      gap: 1.5rem;
    }
    .container {
    }
    .hp__images {
       justify-content: center;
-      gap: 32px;
+      gap: 2rem;
 
    }
    .hp__monitor {
-      width: 460px;
+      max-width: 460px;
    }
    .hp__images-container {
       flex-direction: column;
@@ -64,21 +64,12 @@
    .hp__body {
       width: auto;
    }
-   .hp__title {
-   }
-   .text {
-   }
    .hp__text {
-      width: 460px;
+      max-width: 460px;
    }
-   .hp__advantages {
-   }
-   .hp__advantage {
-   }
-   .hp__more {
-   }
-   .btn {
-   }
-   .btn_black {
+}
+@media (max-height:900px) {
+   html{
+      font-size: 16px;
    }
 }
